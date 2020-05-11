@@ -1,7 +1,12 @@
+# Questão 8
+
+# Questão bem teórica, abaixo segue algumas discussões a respeito de métodos de classe, abstratos e estáticos.
+# Em seus códigos de exemplo, há notas sobre algumas de suas utilidades.
+
+
 # Métodos de classe
 # Métodos de classe são métodos que são chamados sobre uma classe (comparar este com métodos de instância de classe ou métodos de objeto). 
 # Seu significado pode variar dependendo da linguagem de programação:
-
 # Em algumas linguagens (por exemplo, C++, Java), métodos de classe são sinônimos de métodos estáticos (ver seção abaixo),
 # que são chamados com um nome de classe conhecido em tempo de compilação. this não pode ser usado em métodos estáticos
 # Em outras linguagens (por exemplo, Smalltalk, Ruby, Objective-C), métodos de classe são métodos que são chamados sobre um objeto de classe, 
@@ -28,7 +33,7 @@ class Veiculo(metaclass = ABCMeta):
 class Aeroplano(Veiculo):
     def transportar(self, pessoas):
         super().transportar(fator):
-        self.combustivel = pessoas * fator * trecho
+            self.combustivel = pessoas * fator * trecho
 
     def voar(self):
         return "Aeronave em vôo"

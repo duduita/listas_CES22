@@ -1,4 +1,6 @@
-#  Aqui será feito um simples exemplo, ao mesmo tempo que será explicado a ideia central de um decorador..
+# Questão 10
+
+# Aqui será feito um simples exemplo, ao mesmo tempo que será explicado a ideia central de um decorador..
 
 #  Na prática, o decorador age como uma embalagem de presente, acondicionando
 #  a função sem alterar seu conteúdo (ele continua sendo um presente) mas deixando-o mais bonito.
@@ -10,7 +12,7 @@ def my_shiny_new_decorator(a_function_to_decorate):
     # Dentro do decorador se define a função 'on the  fly' a 'wrapper'
     # Essa função será embalada ao redor da função principal
     # Então, ela poderá executar o código após isso, por exemplo:
-    
+
     def the_wrapper_around_the_original_function():
 
         # Put here the code you want to be executed BEFORE the original function is called

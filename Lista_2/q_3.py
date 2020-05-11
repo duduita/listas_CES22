@@ -1,3 +1,7 @@
+# Questão 3
+
+# Conforme pedido, foi criado uma biblioteca com várias funções
+
 import string
 import re
 from collections import Counter

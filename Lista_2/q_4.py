@@ -1,3 +1,8 @@
+# Questão 4
+
+# Conforme pedido, foi feita a resolução para o caso de 8 casas. Já para os demais casos, eles estão
+# no arquivo q_4_2
+
 def share_diagonal(x0, y0, x1, y1):
     """ Is (x0, y0) on a shared diagonal with (x1, y1)? """
     dy = abs(y1 - y0)        # Calc the absolute y distance

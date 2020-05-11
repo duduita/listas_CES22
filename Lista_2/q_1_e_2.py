@@ -1,3 +1,8 @@
+# Questão 1 e 2
+
+# Conforme pedido da questão, baseado no código dado no livro-texto, editou-se para que pudesse ser mudada
+# a cor do semáforo, assim como ativar o timer (após algum clique)
+
 import turtle # Tess becomes a traffic light.
 turtle.setup(400,500)
 wn = turtle.Screen()
@@ -58,6 +63,7 @@ def advance_state_machine():
 def change_color_blue():
     global state_num
 
+# Eu pensava que era para mudar a posição também, depois vi que era só a cor, aí ficou bem mais fácil.
 #    if(state_num == 2):
 #        tess.back(70)
 #    if(state_num == 0):
@@ -83,6 +89,7 @@ def change_color_red():
 def change_color_green():
     global state_num
 
+# Eu pensava que era para mudar a posição também, depois vi que era só a cor, aí ficou bem mais fácil.
 #    if(state_num == 1):
 #        tess.back(140)
 #    if(state_num == 2):

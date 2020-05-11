@@ -1,3 +1,8 @@
+# Questão 5, 6 e 7
+
+# Conforme pedido, segue abaixo uma função com várias classes, como reflect_x, get_line_to, slopeFromPoint.
+# O caso que irá falhar será quando x for 0, nesse caso, ele retornará 'none'.
+
 class Point:
 
 #Point class for representing and manipulating x,y coordinates
@@ -34,8 +39,4 @@ class Point:
         b = self.y - (m*self.x)
         return (m,b)
 
-origin = Point(0,0)
-point = Point(0,0)
-print(Point(3, 4).get_line_to(point))
 
-# O caso que irá falhar será quando x for 0, nesse caso, ele retornará 0.
