@@ -1,6 +1,7 @@
 # Python program to solve N Queen  
 # Problem using backtracking 
-  
+# Para trocar para outros N, basta trocar o N e o output, a ideia é idêntica
+
 global N 
 N = 4
   
